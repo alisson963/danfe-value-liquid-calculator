@@ -1,0 +1,9 @@
+[project]
+name = "robo-valor-liquido-danfe"
+version = "1.0.0"
+description = "Automação em Python para leitura de DANFE e cálculo de valor líquido."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
